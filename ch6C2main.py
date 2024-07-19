@@ -1,20 +1,23 @@
-from ch613 import *
+from ch6C2 import *
 
 run_cases = [
-    (0b0001, 0b0010, 0b0001, 0b1011, 0b1011),
+    ("1", "10", "1010", (1, 2, 10)),
+    ("101", "11", "10100", (5, 3, 20)),
+    ("111", "1011", "11010", (7, 11, 26)),
 ]
 
 submit_cases = run_cases + [
-    (0b0000, 0b0000, 0b0000, 0b1011, 0b1011),
-    (0b1001, 0b0010, 0b1101, 0b1011, 0b1111),
+    ("0", "0", "0", (0, 0, 0)),
+    ("1111", "1111", "1111", (15, 15, 15)),
+    ("101010", "110011", "101010", (42, 51, 42)),
 ]
 
 
-def test(input1, input2, input3, input4, expected_output):
+def test(input1, input2, input3, expected_output):
     print("---------------------------------")
-    print(f"Inputs: {input1}, {input2}, {input3}, {input4}")
+    print(f"Inputs: {input1}, {input2}, {input3}")
     print(f"Expecting: {expected_output}")
-    result = calculate_guild_perms(input1, input2, input3, input4)
+    result = body_parts(input1, input2, input3)
     print(f"Actual: {result}")
     if result == expected_output:
         print("Pass")
