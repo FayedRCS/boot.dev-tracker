@@ -7,7 +7,7 @@ chapter = ""
 
 #Sets Array/list to selected amount of generations. code can be changed to user input as well
 # --> int(input()) and then contents_ch(name_of_input_var)
-myList = contents_ch(3)
+myList = contents_ch(17)
 
 #This can be altered. Ideally create a loop that creates amount of 'file openings' 
 #it would need to change myList index, assign it to chapter variable. And then update the file path each time. 
@@ -23,6 +23,64 @@ with open(file_path, 'w') as chBuilt:
     pass 
 
 chapter = myList[2]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+
+chapter = myList[3]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+
+chapter = myList[4]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[5]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[6]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[7]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[8]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[9]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[10]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[11]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[12]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[13]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[14]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[15]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[16]
 file_path = os.path.join(folder_path, chapter)
 with open(file_path, 'w') as chBuilt:
     pass
