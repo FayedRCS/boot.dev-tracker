@@ -9,7 +9,7 @@ chapter = ""
 # --> int(input()) and then contents_ch(name_of_input_var)
 myList = contents_ch(3)
 
-#This can be improved. Ideally create a loop that creates amount of 'file openings' 
+#This can be altered. Ideally create a loop that creates amount of 'file openings' 
 #it would need to change myList index, assign it to chapter variable. And then update the file path each time. 
 #Lastly execute the file generations
 chapter = myList[0]
@@ -20,7 +20,7 @@ with open(file_path, 'w') as chBuilt:
 chapter = myList[1]
 file_path = os.path.join(folder_path, chapter)
 with open(file_path, 'w') as chBuilt:
-    pass
+    pass 
 
 chapter = myList[2]
 file_path = os.path.join(folder_path, chapter)

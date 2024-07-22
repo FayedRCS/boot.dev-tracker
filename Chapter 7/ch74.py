@@ -1,5 +1,7 @@
 def print_status(player_health):
-    pass
+    if player_health == 0:
+        print("dead")
+    print("status check complete")
 
 
 # Don't edit below this line
