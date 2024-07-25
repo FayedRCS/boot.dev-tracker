@@ -2,12 +2,12 @@ from Chapbuilder import *
 import os
 
 #specify at folder_path end where to create files --> Chapter 8 would be changed to Chapter 9 and so forth after Chapter folder is created
-folder_path = 'c:\\Users\\Fayed\\boot.dev\\Python course tests\\Chapter 8'
+folder_path = 'c:\\Users\\Fayed\\boot.dev\\Python course tests\\Chapter 9'
 chapter = ""
 
 #Sets Array/list to selected amount of generations. code can be changed to user input as well
 # --> int(input()) and then contents_ch(name_of_input_var)
-myList = contents_ch(17)
+myList = contents_ch(19)
 
 #This can be altered. Ideally create a loop that creates amount of 'file openings' 
 #it would need to change myList index, assign it to chapter variable. And then update the file path each time. 
@@ -81,6 +81,18 @@ file_path = os.path.join(folder_path, chapter)
 with open(file_path, 'w') as chBuilt:
     pass
 chapter = myList[16]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[17]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[18]
+file_path = os.path.join(folder_path, chapter)
+with open(file_path, 'w') as chBuilt:
+    pass
+chapter = myList[19]
 file_path = os.path.join(folder_path, chapter)
 with open(file_path, 'w') as chBuilt:
     pass

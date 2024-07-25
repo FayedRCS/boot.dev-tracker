@@ -10,4 +10,4 @@ def is_prime(number):
 
     return True
 
-print(is_prime(2))
+print(is_prime(3169))
