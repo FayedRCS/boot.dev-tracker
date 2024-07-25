@@ -1,5 +1,5 @@
 def print_numbers():
-    for i in range (0, 100):
+    for i in range(100):
         print(i)
 
 

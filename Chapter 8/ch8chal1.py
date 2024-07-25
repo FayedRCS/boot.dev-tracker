@@ -1,5 +1,11 @@
 def countdown_to_blastoff():
-    pass
+    for i in range(10, 0, -1):
+        
+        if i == 1:
+            print("1... Blastoff!")
+            break
+        print(f"{i}...")
+    
 
 
 # Don't edit below this line

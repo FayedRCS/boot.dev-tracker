@@ -1,5 +1,13 @@
 def calculate_squares(start, end):
-    pass
+    
+    for i in range(start, end):
+        num = i ** 2
+        print(f"{start} squared = {num}")
+        start += 1
+    
+    
+
+
 
 
 # Don't edit below this line
