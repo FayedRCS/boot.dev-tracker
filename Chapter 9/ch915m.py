@@ -1,6 +1,8 @@
 from ch915 import *
 
+
 run_cases = [([1, 2, 3, 4, 5], 5), ([1, 2, 300, 4, 5], 300)]
+
 
 submit_cases = run_cases + [
     ([1, 20, 3, 4, 5], 20),

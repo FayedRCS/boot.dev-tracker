@@ -11,4 +11,7 @@ def is_top_weapon(weapon):
 
     # don't touch above this line
 
-    pass
+    if weapon in top_weapons:
+        return True
+    else:
+        return False

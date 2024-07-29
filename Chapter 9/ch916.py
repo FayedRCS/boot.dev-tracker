@@ -3,7 +3,8 @@ def get_odd_numbers(num):
 
     for i in range(0, num):
         # don't touch above this line
-        pass
+        if i % 2 != 0:
+            odd_numbers.append(i)
 
     # don't touch below this line
 
