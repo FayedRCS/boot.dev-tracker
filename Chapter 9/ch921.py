@@ -1,17 +1,17 @@
 def get_heroes():
     heroes = [
-        "Glorfindel",
+        ("Glorfindel",
         2093,
-        True,
-        "Gandalf",
+        True),
+        ("Gandalf",
         1054,
-        False,
-        "Gimli",
+        False),
+        ("Gimli",
         389,
-        False,
-        "Aragorn",
+        False),
+        ("Aragorn",
         87,
-        False,
+        False)
     ]
 
     return heroes

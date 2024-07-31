@@ -5,7 +5,7 @@ def contents_ch(num):
    sec = 9
    myList = []
    
-   #appends smount input to myList, and changes the name of the .py file accordingly
+   #appends amount input to myList, and changes the name of the .py file accordingly
    while starting < num:
       myList.append(f"ch{sec}{ch}.py")
       ch += 1
