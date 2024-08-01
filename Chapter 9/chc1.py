@@ -4,4 +4,12 @@ def get_odds_and_evens(numbers):
 
     # Don't touch above this line
 
-    pass
+    for num in numbers:
+
+        if num % 2 == 0:
+            num_evens += 1
+
+        elif num % 2 != 0:
+            num_odds += 1
+    
+    return num_odds, num_evens
