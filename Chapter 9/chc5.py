@@ -1,6 +1,6 @@
 def double_string(string):
 
-    #making an empty array, to append each letter in the string, twice.
+    #setting an empty array, to append each letter in the string, twice.
     first = []
     
     for letters in string:
