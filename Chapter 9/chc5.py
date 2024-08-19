@@ -4,8 +4,8 @@ def double_string(string):
     first = []
     
     for letters in string:
-        first.append(letters)
-        first.append(letters)
+        first.append(letters*2)
+        
 
     #joining the indexes of the list together, no "delimiter", we just want to join them, and assign it to a new "empty" variable.
 
