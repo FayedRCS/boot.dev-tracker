@@ -12,6 +12,16 @@ myList = contents_ch(19)
 #This can be altered. Ideally create a loop that creates amount of 'file openings' 
 #it would need to change myList index, assign it to chapter variable. And then update the file path each time. 
 #Lastly execute the file generations
+
+
+'''
+for i in myList:
+   chapter = i
+   file_path = os.path.join(folder_path, chapter)
+   with open(file_path, 'w') as chBuildt:
+     print("")
+'''
+
 chapter = myList[0]
 file_path = os.path.join(folder_path, chapter)
 with open(file_path, 'w') as chBuilt:
